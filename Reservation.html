@@ -1,0 +1,117 @@
+  <!doctype html>
+  <html>
+  <head>
+    <title> New HTML 5 input types </title>
+    <meta charset ="utf-8" />
+    </head>
+
+
+  <body>
+    <h1> Welcome to the Movie Reservation Page </h1>
+
+      <form method ="post" action="http://www.deitel.com" autocomplete="on"novalidate>
+        <p>
+          <label > Enter the movie you want to watch
+            <input name = "name" type="text" size="25"/>
+            </label>
+          </p>
+        <p>
+          <label>Enter some comments you have about how you want us to help you:
+            <textarea name ="comment" rows="4" cols="36"> Enter comments here </textarea>
+          </label>
+        </p>
+        <p>
+          <label> Home Adress:
+            <input type = "password" name="email" size="25"/>
+          </label>
+        </p>
+        <p>
+          <strong> Movie Preferences </strong> <br/>
+          <label> Horror&nbsp;
+            <input name ="thingsLiked" type="checkbox" value ="Horror"</>
+            <label> Comedy&nbsp;
+              <input name ="thingsLiked" type="checkbox" value ="Comedy"</>
+              <label> Thriller&nbsp;
+                <input name ="thingsLiked" type="checkbox" value ="Thriller"</>
+                <label> Action&nbsp;
+                  <input name ="thingsLiked" type="checkbox" value ="Action"</>
+                    </label>
+
+
+          </p>
+          <p> <strong> How many hours do you watch a movie per week?</strong> <br/>
+            <label> 1&nbsp
+              <input name ="howto" type="radio" value ="1"</>
+              <label> 2
+                <input name ="howto" type="radio" value ="2"</>
+                <label> 3
+                  <input name ="howto" type="radio" value ="3"</>
+                  <label> 4
+                    <input name ="howto" type="radio" value ="4"</>
+                      </label>
+                      <label> Range:
+                        <input type ="range" min= "0" max="20" = value="10"/>
+                      </label>
+
+                        </p>
+                        <p>
+                      <label>Date:
+                        <input type="date"/> (mm/dd/yy)
+                      </label> <br/>
+                      <label> DateTime:
+                        <input type = "datetime"/>
+                      </label> <br/>
+                      <label> Email:
+                        <input type ="email" placeholder = "auprety901@gmail.com"/>
+                      </label> <br/>
+                      <label>Phone number:
+                        <input type="tel"/>
+                      </label> <br/>
+                      <label> Number of Movies you watch per week:
+                        <input type ="number" min= "0" max="7" step="1"= value="4"/>
+                      </label>
+
+
+
+                       </p>
+                      <p>
+                        <label> Rate Netflix:
+                          <select name:"rating">
+                            <option selected>Amazing</option>
+                            <option>10</option>
+                            <option>5</option>
+                            <option>1</option>
+                            <option>awful</option>
+
+                          </select>
+                        </label>
+                    </p>
+                    <p>
+                      <label>
+                      <input type ="text" placeholder ="Select Movie" list =movielist />
+                       <datalist id = "movielist"
+                      <option value ="Foreign"></option>
+                      <option value ="American"></option>
+                      <option value ="Foreign"></option>
+                      </datalist>
+                                </label>
+                      </p>
+
+
+
+                      <p>
+                        <input type= "submit" value="Submit"/>
+                        <input type = "reset" value= "Clear"/>
+                      </p>
+
+
+        </form>
+        <textarea name="comment" form="usrform">Enter favorite movie...</textarea>
+
+      <p>  <a href="HomeMovie.html">GO to Home Page</a> </p>
+
+
+
+
+</body>
+</html>
