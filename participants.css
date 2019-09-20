@@ -1,0 +1,60 @@
+.background_image{
+  position:relative;
+  top:10px;
+  left:450px;
+  z-index: 1;
+
+}
+.foreground_image
+{
+  position:relative;
+  top:20px;
+  left:450px;
+
+
+}
+.text{
+  position:absolute;
+  top:20px;
+  left: 550px;
+  z-index: 2;
+  color:white;
+}
+body{
+  background-image:url(World_Cup.png)
+
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-color: yellow;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+nav{
+font-weight:bold;
+color:white;
+background-color: royalblue;
+border-width: 2px;
+border-style: solid;
+border-color:royalblue;
+width:10em;
+}
+nav ul
+{
+display:none;
+list-style:none;
+margin:0;
+padding:0;
+
+}
+nav:hover ul{
+  display:block
+
+}
+nav ul li{
+background-color: white;
+color:black;
+border:2px solid royalblue;}
+nav ul li:hover{
+  background-color:powderblue;
+  font-style:italic;
+}

@@ -1,0 +1,40 @@
+div{
+width: 300px;
+border: 15px solid green;
+padding: 50px;
+text-shadow: -4px 4px 6px dimgrey;
+background-color:white;
+margin bottom: 50px;
+margin right: 50px
+}
+.sauce{
+  width: 300px;
+  border: 15px solid yellow;
+  padding: 50px;
+  text-shadow: -4px 4px 6px dimgrey;
+  background-color: white;
+  margin bottom: 50px;
+  margin right: 50px
+
+}
+img{
+  position:relative;
+  -webkit-animation: movingimage linear 10s 1s infinite alternate;
+  animation: movingimage linear 10s 1s infinite alternate;
+}
+
+@keyframes movingimage {
+  0% { left: 0px; top: 0px; }
+  25% { left: 0px; top: 30px; }
+  50% { left: 30px; top: 30px;}
+  75% { left: 30px; top: 0px;}
+  100% { left: 0px; top:0px; }
+}
+
+@-webkit-keyframes movingimage {
+  0% { left: 0px; top: 0px; }
+  25% {left: 0px; top: 30px; }
+  50% { left: 30px; top: 30px;}
+  75% { left: 30px; top: 0px;}
+  100% {left: 0px; top:0px; }
+}
